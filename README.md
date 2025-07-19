@@ -25,35 +25,36 @@ A machine learning project showcasing data preprocessing, model training, evalua
 
 ## 📁 Project Structure
 
-root:.
-| .gitignore
-| LICENSE
-| README.md
-| requirements.txt
-| setup.py
-| tree.txt
-|  
-+---logs
-+---ml_project.egg-info
-| dependency_links.txt
-| PKG-INFO
-| requires.txt
-| SOURCES.txt
-| top_level.txt
-|  
-+---src
-| exception.py
-| logger.py
-| utils.py
-| **init**.py
-|  
- +---components
-| data_ingestion.py
-| data_transformation.py
-| model_trainer.py
-| **init**.py
-|  
- +---pipeline
-predict_pipeline.py
-train_pipeline.py
-**init**.py
+root/
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── setup.py
+│
+├── logs/
+│
+├── ml_project.egg-info/
+│ ├── dependency_links.txt
+│ ├── PKG-INFO
+│ ├── requires.txt
+│ ├── SOURCES.txt
+│ └── top_level.txt
+│
+└── src/
+├── init.py
+├── exception.py
+├── logger.py
+├── utils.py
+│
+├── components/
+│ ├── init.py
+│ ├── data_ingestion.py
+│ ├── data_transformation.py
+│ └── model_trainer.py
+│
+└── pipeline/
+├── init.py
+├── predict_pipeline.py
+└── train_pipeline.py
